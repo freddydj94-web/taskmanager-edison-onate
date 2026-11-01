@@ -1,6 +1,4 @@
-
 //  VARIABLES GLOBALES Y ESTADO
-
 let tareas = [];
 let filtroActual = 'todas';
 let busquedaActual = '';
