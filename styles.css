@@ -127,6 +127,7 @@ input[type="text"] { flex: 1; min-width: 200px; }
 #contenedor-tareas { list-style: none; }
 
 .tarea-item {
+    
     background-color: rgba(28, 37, 54, 0.6);
     padding: 15px;
     margin-bottom: 10px;
