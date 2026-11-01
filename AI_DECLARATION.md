@@ -1,7 +1,7 @@
 # Declaración de Uso de Inteligencia Artificial
 
-**Estudiante:** Edison Fabricio Oñate Cañar
-**Actividad:** Activida integradora 2 - TaskManager - JavaScript Vanilla
+### **Estudiante:** Edison Fabricio Oñate Cañar
+### **Actividad:** Activida integradora 2 - TaskManager - JavaScript Vanilla
 
 ### 1. ¿Qué herramientas de IA utilizó y en qué momentos?
 
