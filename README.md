@@ -14,7 +14,7 @@ Aplicación web interactiva desarrollada con JavaScript Vanilla (ES6+) para la g
 ## Cómo visualizar el proyecto
 1. Clona el repositorio o descarga los archivos.
 2. Abre el archivo `index.html` en tu navegador.
-3. Puedes ver la aplicación en vivo aquí: [pendiente enlace git]
+3. Puedes ver la aplicación en vivo aquí: https://freddydj94-web.github.io/taskmanager-edison-onate/
 
 ## Investigación Técnica
 Se implementó la **Opción B: Custom Events o Patrón Observador** para actualizar el Dashboard de métricas de forma reactiva y desacoplada del DOM principal.
