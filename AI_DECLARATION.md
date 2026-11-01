@@ -19,4 +19,4 @@ Utilicé la herramienta **DeepSeek** como asistente de programación durante el 
 
 *   **Ajustes de CSS:** Los colores de fondo que estaban inicialmente hacían que las cajas de texto (inputs) se perdieran con la imagen de fondo. Tuve que modificar manualmente los valores de opacidad `rgba` en las clases `.contenedor` y `.tarea-item` para lograr el efecto visual transparente que se adaptara a la imagen de mi emprendimiento (System World Tech).
 
-la IA se usó como apoyo técnico y no como sustituto de mi autoría.
+### la IA se usó como apoyo técnico y no como sustituto de mi autoría.
