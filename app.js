@@ -5,7 +5,7 @@ let filtroActual = 'todas';
 let busquedaActual = '';
 let ordenActual = 'fecha';
 
-// Referencias al DOM
+       // Referencias al DOM
 const formTarea = document.getElementById('form-tarea');
 const inputTitulo = document.getElementById('input-titulo');
 const selectPrioridad = document.getElementById('select-prioridad');
@@ -15,15 +15,15 @@ const selectOrden = document.getElementById('select-orden');
 const btnFiltros = document.querySelectorAll('.btn-filtro');
 const mensajeError = document.getElementById('mensaje-error');
 
-// Elementos del Dashboard
+       // Elementos del Dashboard
 const uiTotal = document.getElementById('total-tareas');
 const uiPendientes = document.getElementById('tareas-pendientes');
 const uiCompletadas = document.getElementById('tareas-completadas');
 
-// ==========================================
-// 2. EVENTO PERSONALIZADO (OPCIÓN B)
-// ==========================================
+
+// 2. EVENTO PERSONALIZADO (OPCIÓN B INVESTIGACION)
 // Creamos un CustomEvent para actualizar el dashboard de forma reactiva
+
 const eventoActualizarDashboard = new CustomEvent('tareasActualizadas');
 
 document.addEventListener('tareasActualizadas', () => {
