@@ -6,6 +6,7 @@
 ### 1. ¿Qué herramientas de IA utilizó y en qué momentos?
 
 Utilicé la herramienta **DeepSeek** como asistente de programación durante el desarrollo de esta actividad. La utilicé principalmente en la fase de revision y futuras modificaciones del código, para comprender la lógica del patrón observador (Custom Events) y para proponer los estilos CSS base.
+
 la IA se usó como apoyo técnico y no como sustituto de mi autoría.
 
 ### 2. Prompts (instrucciones) clave utilizados:
