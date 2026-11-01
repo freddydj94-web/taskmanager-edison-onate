@@ -88,6 +88,7 @@ input[type="text"] { flex: 1; min-width: 200px; }
 
 /* Controles */
 .controles {
+    
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
