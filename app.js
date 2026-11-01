@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.dispatchEvent(eventoActualizarDashboard);
     } else {
         // Si no hay datos, consultamos la API
+
         await cargarDesdeAPI();
     }
 });
@@ -57,6 +58,7 @@ async function cargarDesdeAPI() {
         const datosAPI = await respuesta.json();
         
         // Tomamos solo los primeros 10 para no saturar la pantalla y los adaptamos a nuestro formato
+        
         tareas = datosAPI.slice(0, 10).map(tarea => ({
             id: tarea.id,
             titulo: tarea.title,
