@@ -32,9 +32,9 @@ document.addEventListener('tareasActualizadas', () => {
     uiCompletadas.textContent = tareas.filter(t => t.completed).length;
 });
 
-// ==========================================
+
 // 3. INICIALIZACIÓN Y API
-// ==========================================
+
 document.addEventListener('DOMContentLoaded', async () => {
     const datosLocales = localStorage.getItem('misTareas');
     
