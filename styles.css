@@ -36,6 +36,7 @@ body {
     padding: 20px;
     background-color: rgba(28, 37, 54, 0.4); 
     border-radius: 12px; 
+    border: 1px solid #3a465a;
 }
 
 /* Dashboard.1 */
@@ -76,7 +77,7 @@ input, select, button {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #3a465a;
-    background-color: var(--fondo);
+    background-color: rgba(28, 37, 54, 0.8);
     color: var(--texto);
     font-family: inherit;
 }
