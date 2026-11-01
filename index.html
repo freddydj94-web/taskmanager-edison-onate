@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskManager - Edison Oñate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>TaskManager - Edison Oñata</h1>
+        <p>Gestión de tareas System World Tech offline con JavaScript</p>
+    </header>
+
+    <main class="contenedor">
+        <!-- Dashboard de Métricas -->
+        <section class="dashboard">
+            <div class="card-metrica">
+                <h3>Total</h3>
+                <p id="total-tareas">0</p>
+            </div>
+            <div class="card-metrica">
+                <h3>Pendientes</h3>
+                <p id="tareas-pendientes">0</p>
+            </div>
+            <div class="card-metrica">
+                <h3>Completadas</h3>
+                <p id="tareas-completadas">0</p>
+            </div>
+        </section>
+
+        <!-- Formulario para crear tarea -->
+        <section class="formulario-seccion">
+            <h2>Nueva Tarea</h2>
+            <form id="form-tarea">
+                <input type="text" id="input-titulo" placeholder="Título de la tarea..." required>
+                <select id="select-prioridad">
+                    <option value="Alta">Prioridad Alta</option>
+                    <option value="Media" selected>Prioridad Media</option>
+                    <option value="Baja">Prioridad Baja</option>
+                </select>
+                <button type="submit" class="btn-primario">Agregar Tarea</button>
+            </form>
+        </section>
+
+        <!-- Controles de Filtro y Búsqueda -->
+        <section class="controles">
+            <div class="filtros">
+                <button class="btn-filtro activo" data-filtro="todas">Todas</button>
+                <button class="btn-filtro" data-filtro="pendientes">Pendientes</button>
+                <button class="btn-filtro" data-filtro="completadas">Completadas</button>
+            </div>
+            
+            <div class="busqueda-orden">
+                <input type="text" id="input-busqueda" placeholder="Buscar por título...">
+                <select id="select-orden">
+                    <option value="fecha">Ordenar por Fecha</option>
+                    <option value="prioridad">Ordenar por Prioridad</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Mensaje de error de API -->
+        <div id="mensaje-error" class="error-oculto"></div>
+
+        <!-- Lista de tareas -->
+        <section class="lista-tareas">
+            <ul id="contenedor-tareas">
+                <!-- Las tareas se renderizan aquí dinámicamente -->
+            </ul>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
