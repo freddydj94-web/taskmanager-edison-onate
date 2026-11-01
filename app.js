@@ -1,4 +1,5 @@
-//  VARIABLES GLOBALES Y ESTADO
+//  1.VARIABLES GLOBALES Y ESTADO
+
 let tareas = [];
 let filtroActual = 'todas';
 let busquedaActual = '';
