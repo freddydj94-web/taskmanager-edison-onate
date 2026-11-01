@@ -13,9 +13,14 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--fondo);
     color: var(--texto);
+    background-image: linear-gradient(rgba(18, 24, 38, 0.85), rgba(18, 24, 38, 0.85)), url('img/logo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .header {
