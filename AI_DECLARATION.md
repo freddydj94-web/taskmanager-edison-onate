@@ -18,3 +18,5 @@ Utilicé la herramienta **DeepSeek** como asistente de programación durante el 
 *   **Error en el Dashboard:** El código creado inicialmente no actualizaba los contadores del Dashboard cuando la página se recargaba y los datos se leían desde el `localStorage`. La IA me ayudo a encontrar el error y se lo ajustao manualmente el código agregando la línea `document.dispatchEvent(eventoActualizarDashboard);` dentro del bloque `if (datosLocales)` para obligar a que el evento se disparara al iniciar.
 
 *   **Ajustes de CSS:** Los colores de fondo que estaban inicialmente hacían que las cajas de texto (inputs) se perdieran con la imagen de fondo. Tuve que modificar manualmente los valores de opacidad `rgba` en las clases `.contenedor` y `.tarea-item` para lograr el efecto visual transparente que se adaptara a la imagen de mi emprendimiento (System World Tech).
+
+la IA se usó como apoyo técnico y no como sustituto de mi autoría.
