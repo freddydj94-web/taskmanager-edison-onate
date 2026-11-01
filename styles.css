@@ -34,9 +34,10 @@ body {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(28, 37, 54, 0.4); 
+    background-color: rgba(28, 37, 54, 0.85); 
     border-radius: 12px; 
     border: 1px solid #3a465a;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* Dashboard.1 */
@@ -48,11 +49,14 @@ body {
 
 .card-metrica {
     flex: 1;
-    background-color: var(--fondo-tarjeta);
+    background-color: rgba(28, 37, 54, 0.6);
     padding: 15px;
     border-radius: 8px;
     text-align: center;
+    border-left: 4px solid var(--color-primario); 
+    border: 1px solid #3a465a;
     border-left: 4px solid var(--color-primario);
+
 }
 
 .card-metrica h3 { font-size: 14px; color: var(--texto-suave); }
@@ -60,8 +64,8 @@ body {
 
 /* Formulario */
 .formulario-seccion {
-    background-color: var(--fondo-tarjeta);
-    padding: 20px;
+    background-color: transparent;
+    padding: 20px 0;
     border-radius: 8px;
     margin-bottom: 20px;
 }
