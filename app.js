@@ -186,9 +186,9 @@ window.eliminarTarea = (id) => {
     }
 };
 
-// ==========================================
+
 // 6. EVENTOS DE FILTROS Y BÚSQUEDA
-// ==========================================
+
 btnFiltros.forEach(btn => {
     btn.addEventListener('click', (e) => {
         btnFiltros.forEach(b => b.classList.remove('activo'));
