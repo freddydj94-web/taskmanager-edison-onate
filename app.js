@@ -85,9 +85,9 @@ function guardarEnLocalStorage() {
     document.dispatchEvent(eventoActualizarDashboard);
 }
 
-// ==========================================
+
 // 5. CRUD Y RENDERIZADO
-// ==========================================
+
 formTarea.addEventListener('submit', (e) => {
     e.preventDefault();
     
