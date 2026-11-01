@@ -58,7 +58,7 @@ async function cargarDesdeAPI() {
         const datosAPI = await respuesta.json();
         
         // Tomamos solo los primeros 10 para no saturar la pantalla y los adaptamos a nuestro formato
-        
+
         tareas = datosAPI.slice(0, 10).map(tarea => ({
             id: tarea.id,
             titulo: tarea.title,
@@ -76,9 +76,9 @@ async function cargarDesdeAPI() {
     }
 }
 
-// ==========================================
+
 // 4. PERSISTENCIA (LOCALSTORAGE)
-// ==========================================
+
 function guardarEnLocalStorage() {
     localStorage.setItem('misTareas', JSON.stringify(tareas));
     // Disparamos el evento personalizado para actualizar el dashboard
